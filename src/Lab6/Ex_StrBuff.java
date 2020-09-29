@@ -1,0 +1,23 @@
+package Lab6;
+
+public class Ex_StrBuff {
+
+    public static void main(String[] args) {
+
+        StringBuffer strbuf = new StringBuffer();// null
+        strbuf.append("I studying at RUTS");
+        System.out.println(strbuf.length());
+
+        strbuf.append(" 2020");
+        System.out.println(strbuf);
+
+
+        strbuf.insert(0, "My name is MOS. ");
+        System.out.println(strbuf);
+
+        strbuf.insert(14, 26);
+        System.out.println(strbuf);
+
+    }
+
+}
